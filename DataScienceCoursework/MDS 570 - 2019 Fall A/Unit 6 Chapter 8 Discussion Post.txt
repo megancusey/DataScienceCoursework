@@ -1,0 +1,46 @@
+MLE (Maximum likelihood estimatation) seeks to find the values of parameters that would maximize the probability of getting data that has been observed.
+
+Good ARIMA models are those with that minimize AIC, AICc, BIC. The information criteria are not comparable across models with different differencing orders.
+
+auto.arima() can be used to help find an optimal model quickly. The function uses different differencing techniques and uses the KPSS tests to identify if the data is differenced well enough. Then it uses a stepwise approach to find out the values of p and q. After testing a combination of p and q values, the model with the best AICc is selected. Variations of the model are performed until the lowest AICc is found and is the result of auto.arima(). Parameters approximation and stepwise can be turned to false for more accuracte and larger sets of models to be included in the function, but at a computing cost.
+
+Process of fitting a non-seasonal time series data to an ARIMA model:
+1. Plot the data 
+2. Perform a transformation, if necessary, to stablize variances.
+3. If the data is not stationary, take first differences of the data until stationary.
+4. Plot ACF/PACF, is an ARIMA (p,d,0) or ARIMA(0,d,q) appropriate?
+5. Try chosen models, use AICc to identify better model.
+6. Check to see if residuals are white noise, if not try to modify model.
+7. If the residuals look like white noise, calculate forecasts.
+
+Parameters:
+Default: Arima() sets c (constant) = u (estimated sample mean?) = 0 when d (# of differencing) = 0.
+Include.Mean parameter applies when d=0 and is TRUE by default. Include.Mean = FALSE means u=c=0.
+Include.drift allows u<>0 when d=1. When d>1, no constant is allowed. U is called the drift in R when d=1.
+
+auto.arima() automates the inclusion of a constant.
+
+Forecasts can be obtained in 3 steps:
+1. Modify ARIMA equation so y(t) is on the left side, all other terms are on the right.
+2. Replace t with (T+h).
+3. On the side side of equation, replace future observations with their forecasts, future errors with 0 and past errors with their residuals.
+
+Prediction intervals are calculated based on assumptions that residuals are not correlated and normally distributed. If the assumptions are not true, the prediction intervals will be incorrect.
+
+ARIMA can model seasonal data as well. In order to do so, add (P,D,Q)m -seasonal portion- to the model along with (p,d,q) -non-seasonal portion-
+
+m= # of observations per year.
+
+Seasonal part of AR/MA model will be seen in PACF/ACF plots. EX: ARIMA(0,0,0)(0,0,1)(m= 12) should display spike at lag 12 in ACF, no other spikes & decay in seasonal lags of PACF (at lags 12, 24, 36, etc.)
+
+ARIMA(0,0,0)(1,0,0)(m=12) model would show decay in seasonal lags of ACF and spikes at lag 12 in PACF.
+
+auto.arima() will also work on seasonal data using nsdiff to determing D (seasonal differences) and ndiffers(ordinary differences.  p,q, P, and Q parameters are selected by minizing AICc.
+
+Test evaluation can be performed on forecast points. When comparing models using AICc values, all models have to have the same orders of differencing. When comparing models using a test set, it doesn't matter how we came to the forecasts, the comparisons are valid. Models that do not pass the residuals test can be used for forecasting but prediction intervals may not be valid. Use the model that fits the best.
+
+
+
+
+
+

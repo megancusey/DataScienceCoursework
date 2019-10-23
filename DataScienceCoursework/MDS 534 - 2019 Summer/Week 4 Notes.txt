@@ -1,0 +1,33 @@
+Market Basket Analysis
+4 groups of data
+- Stores
+- Customers
+- Orders
+- Items
+
+Step 1 - Do basic measurements to identify interesting charasterics of the data
+
+Step 2 - Ask a business question.
+Doesn't have to be at the transactional level. Can be summarized information such as one row per product for a week. Can describe the customer etc.
+
+Step 3 - Identify data required & attributes. Separate into bins. Can use the exclude middle approach like the Hispanic - Non-Hispanic approach excluded Mixed catchment areas and focused on Highly Hispanic and Non-Hispanic regions.
+
+Step 4 - Visualize and Build Association Rules
+
+Data:
+Transaction data table
+co-occurance table, counts how many times items appear together
+contingency table - used with chi square, counts number of times of combinations of when right/left hand sides on the association rule is present or absent in the other side
+use another measure such as lift to determine if the absent or present rule is better
+
+Types of Association Rules
+- Actionable: Rules that contain high quality information that can be used to support an action.
+- Trivial: Rules that are common knowledge
+- Inexplicable: Doesn't have an explanation or suggest an action.
+
+Measures include support, confidence, lift, and chi-squared
+
+Challenges of creating association rules:
+- Choosing right set of items
+- Generating rules by deciphering the counts in the co-occurrence matrix
+- limitations of large datasets

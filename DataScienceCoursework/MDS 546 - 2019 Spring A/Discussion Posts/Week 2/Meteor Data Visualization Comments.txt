@@ -1,0 +1,3 @@
+Deleted impact craters which were all of the AGE data in the fell/found & null years
+
+Consolidated the year_date and year columns

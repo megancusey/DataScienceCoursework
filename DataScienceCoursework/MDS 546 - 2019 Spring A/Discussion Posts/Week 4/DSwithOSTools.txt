@@ -1,0 +1,16 @@
+
+Data Analysis with Open Source Tools appeared to be a good start of concepts, tools, formulas, and consideration when performing Time Series Analysis.
+
+The beginning portion of it seemed to me like a roadmap of where to begin a time series analysis. 
+
+For starters, we need to have a description of the Analysis which involves characterizing the data. Does it have trends, seasonality? Are there any abrupt changes?
+
+Trends and Seasonality will affect what formulas you use and what steps you need to take to perform a valid analysis of the data. Abrupt changes might signal you to split the dataset into two for it could be indicative of a change that occurs that makes the data before and after the change irrelevant to each other.
+
+The text provided forecasting formulas for each method you may have to use depending on seasonality and trend. 
+
+Control is another task for Time Series analysis wher you need to monitor a process over time to make sure the scores are stay in a range of predefined values.
+
+The second portion of the text honestly had me a bit in the weeds. I learn better with real data, real application of the process. It was a bit overwhelming to read some of the restrictions on what properties of your data need to follow in order to accurately apply some of the formulas and how to de-trend or de-seasonalize your information. 
+
+I figured I'd look into LinkedIn Learning to see if somebody has walked through the three tasks of Time Series Analysis for a more hands on experience. However, I think the true point of this text anyway wasn't necessarily to tell you how to do something where you can walk away and perform the analysis on your own, but give you a feel for what needs to be considered when performing a time series analysis. I definitely have a high level understanding that in order to appropriately analyze a time series data set, you need to determine some characteristics in your data set, and then go through several steps of applying filters such a smoothing, de-trending, etc. to be able to perform beneficial analysis.

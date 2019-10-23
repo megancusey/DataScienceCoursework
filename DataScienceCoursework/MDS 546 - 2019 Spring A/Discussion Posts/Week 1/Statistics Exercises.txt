@@ -1,0 +1,34 @@
+2. 	Upon completion of the psychologist's study, the information gained from the study can be presented in a descriptive or inferential statistical conclusion. 
+	An example of a descriptive representation of the study would be to conclude that method one resulted in a 56% increase in memory retention as compared to method two which only increased by 12%. The descriptive statistic summarizes the result of the study without inferring that the same results may apply to a greater population. 
+	An example of a inferential representation of the study would be to conclude that the method one would increase memory by 56% and method two by 12% to the larger population of people who suffer from memory loss. In order for this inferential statistic to be meaningful, the psychologist must study an acceptable sample size of the population and randomly select subjects for the study.
+	The descriptive stastic is a fact for the study that was performed. It only summarizes the information concluded as a result of the study from the twelve participants. The inferential statistic is compiled from a basis that believes the sample population is a representation of a larger population and it is reasonable to believe that similar results will be realized when applied the rest of the population.
+
+4. Subjects that are not randomly selected for the study will limit the ability to generalize the result of the study. In the instance of this study which select its volunteers from a psychology class, the results of the study can only be applied to students in an introductory psychology class. In contrast, Subjects who are not randomly assigned to either a spaced or massed practice condition, but chooses which one he or she would like to take part in, will discredit the study entirely. The volunteer will choose the condition that is more appealing to him or her resulting in an invalid conclusion for the study. Non-random assignment is more serious than non-random sample because the results of a non-random assignment does not carry any merit to the study while non-random sample limits the population the study's results can be inferred to.
+
+6. 
+Rating of the quality of a movie on a 7-point scale: Quantitative.
+Age - Quantative
+County you were born in - Qualitative
+Favorite Color - Qualitative
+Time to response - Quantative
+
+7. 
+Rating of the quality of a movie on a 7-point scale: 7 point scale
+Age - Age
+County you were born in - County
+Favorite Color - Color is the measurement.
+Time to response - Years, Days, hours, minutes, seconds, or never.
+
+8. 
+- Converting from meters to kilometers
+- Converting ounces to pounds
+- Converting temperature from Fahrenheit to Centigrade
+- Multiplying all numbers by 2 and then adding 5
+
+11. A has a large positive skew. C has a large negative skew.
+
+12. Time to solve an anagram problem
+
+17. 78 Rice University students - gender, athletes (contact and non-contact athletes), non-atheletes
+
+18. Expression, Ordinal 

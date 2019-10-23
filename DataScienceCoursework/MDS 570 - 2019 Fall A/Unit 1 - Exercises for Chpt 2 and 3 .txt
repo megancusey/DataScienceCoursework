@@ -1,0 +1,5 @@
+Chapter 2, Exercise 3:
+
+The data for retail book sales for A3349873A shows an obvious upward trend through 1982 - 2013. This is most clearly displayed in the autoplot graphing function. The ggseasonplot graphing function showed some signs of seasonality, with a particularly strong positive seasonsility at the end of the year, between November and December. Perhaps that is due to the holidays. I did not see a cyclical trend.
+
+

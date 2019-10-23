@@ -1,0 +1,10 @@
+ETS Models are state space models that describe unobserved data by equations of how different components ( level, trend, seasonal) change over time in the observed data.
+
+ETS (Error, Trend, Seasonal) models apply a combination of level, trend, seasonal state equations with different paramters such as using an additive or multiplicative formula for trend and/or seasonality. A damped parameter can be used for trend and seasonality. Also, different values for the smoothing parameter can be applied. As a result, an error distribution is created (the difference between the predictable and unpredictable portions of the data) compared to the observed values.
+
+There are different methods to evaluating which ETS model should apply. For instance there is AIC, corrected AIC, and Bayesian Information Criterion.
+
+The main functions to apply the ETS models and produce forecasts using the model is ets() and function().
+
+Question: In lecture, Dr. Kulich discussed situations in why somebody would want to use AIC and where another metric would be best. I remember him stating that AIC is better when we need to limit errors in the model. I've been searching for a blog or something that gives more information on this theory. Is there a source somebody can provide that I can read more about this? Perhaps just a paragraph re-explaining will do?
+

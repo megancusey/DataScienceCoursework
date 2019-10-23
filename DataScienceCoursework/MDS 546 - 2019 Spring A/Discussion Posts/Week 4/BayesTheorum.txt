@@ -1,0 +1,9 @@
+Allen Downey  - Think Bayes
+
+Thanks for sharing these videos this week. I found them helpful and thought provoking.
+
+Amelia Smith did a great job of explaining Bayes Theory in layman's terms. I enjoyed her approach of using Bayes' Theorem to a real world analysis of a presidential election and a policy, such as tax cuts, as a result of the election. It certainly helped me understand what kind of anaylsis we can do with some known information.
+
+In tandem with Allen Downey's speech, the one thing that really stuck out to me is that Bayes' is important because it presents it's analysis in a way that is beneficial and we can understand. It helps us make decisions rather than giving another statistical measure such as a p-value. While there are many arguments against Bayes, there's pros and cons with each statistical approach. I found Allen Downey's speech rather enlightening and am considering purchasing his book, Think Bayes. It seems that he addresses some concerns with Bayes Theorum with Python Code. I am too excited to get my feet wet with R and Python.
+
+Text Classification Using Naive Bayes by Fransicsco Iacobelli was a nice, easy to understand introduction to text classification. At the end of his video, he addressed a major question I had which was what if the review had a word not included in the initial probability. His answer was to assign a very small probability to the word as to not to exclude the word for a positive or negative outcome. I expected him to drop the words "I" and "a" because the words (in my opinion) are kind of meaningless (at least that is my hypothesis) to his results, but perhaps people use these words more often when talking negatively or positively for a movie review. Nonetheless, this was a great video to get some exposure on Text Classification.

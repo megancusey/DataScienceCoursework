@@ -1,0 +1,11 @@
+First trying to normalize, understand the data.
+Thought that fell/found column might effect the year_dt being NULL but found that there are NULL values in both cases so I assume that in the instances were these are null, we do not know the year.
+
+Fell/Found column doesn't only lend itself to the fact if the meteor fell or was found. Also some age values.
+34338/34514 rows contain a fell or found value
+177/34514 rows contain a value related to age.
+
+I don't know what the_geom is but by a google search it appears that its a geometry related column. Blogs such as this one: https://carto.com/docs/tips-and-tricks/geospatial-analysis/ advises that the information is in a format called well-known binary and can be converted using ST_AsText or ST_AsGeoJSON. I use Microsoft SQL Server Management Studio and so I found documentation on how to convert this information using T-SQL. See here: https://docs.microsoft.com/en-us/sql/t-sql/spatial-geometry/spatial-types-geometry-transact-sql?view=sql-server-2017.
+
+An an analysis, I would need this information in order to know what kind of schema I need for my database from this table. Though, from my reading I found that tools used for data science don't really specify a schema for columns so that will be interesting to learn how to account for these different data types in the future.
+

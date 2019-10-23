@@ -1,0 +1,9 @@
+Chapter 7 introduced Exponential Smoothing as a method of forecasting time series data. I found the concepts to build upon previous chapters which emphasized how to handle time series data with a combination of trend and seasonality characteristics. A simple definition of Exponential Smoothing would be applying a weighted average of historical scores in order to forecast unknown values. Depending on the characteristics of the data, different methods of exponential smoothing are applied. 
+
+For data with no apparent trend or seasonality may use simple exponential smoothing which applies a smoothing parameter that is calculated by identifying the value that minimises the sum of the squared residuals. 
+
+Data with seasonality or trend patterns build upon simple exponential by applying an additional equation (trend or seasonal) and a set of additional corresponding parameters. For instance, a data set with trend will apply its own trend equation and also have a b(sub t) variable thtat represents the trend (slope) of a data point at a certain time. Seasonal data has a seasonal equation (additive or multiplicative), along with the m variable that describes the frequency of the season and s(sub t) that represents the seasonal component of a data point at a certain time.
+
+A concept that can be applied to the exponential smoothing method of trend or seasonal data is called damping which flattens the trend or seasonal effect at some point in the future. This helps account for forecasts that tend to over forecast trend or seasonal components of a dataset.
+
+The above components can be applied in an exponential smoothing method of time series forecasting depending on the properties of the data. In general, the forecasting method that reduces the MAE and/or MSE the most represents a good method to use, but it may vary depending on the goals of the forecast.

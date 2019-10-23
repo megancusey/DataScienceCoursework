@@ -1,0 +1,85 @@
+Chapter 5
+6. 26.67%
+8. .32872
+9. 
+P(Green and red) = .052632
+P(Blue and Yellow) = .026316
+15. False - The probability is the same.
+16. False
+21. C. The two outcomes are equally likely. The two events are independent. Therefor, getting a three on the first die is 1/6. The probabilty of getting a die on the second die is also 1/6. Similarly, in event two, the second die would need to be a 4. Since it's they are fair, six sided dice, the probabilty to roll a 4 on the second die is also 1/6. The probabilty is the same for both events.
+24.
+P(L) = .40
+P(M) = .40
+P(H) = .20
+P(L|A) = .4 * .1 = 4%
+P(H|A) = .2 * .2 = 4%
+The probabilty of a low risk or high risk driver having an accident in the first year is the same. Therefor, therefore, the driver is 50% likely to be a high risk driver.
+26. 
+a. p=.0048
+b. I couldn't find any references to answer this question in the online stats booked, but I found a similar question onlline where they dide a hypothesis test where 
+z = p^-p0/sqrt(p0(1-p0)/n which is 2.68. The z-score for 5% of a right tailed test is 1.645. Since the z-test is greater than the z score we can say that the evidence is sufficient to say that the home team wins more than half of it's games.
+
+Chapter 6
+3.A parsimonious scientific theory is one that is realtively simple and does not rely on many new assumptions.
+4. The measure of reliability in parallel forms is obtained by performing different versions of the same test to the population. The results then are correlated to evaluate the consistency of results.
+8. Increasing the test length can increase reliability of a rest assuming that the new items added have the same charateristics as the old items. Adding in poor test items can decrease reliability.
+13.
+Between-Subjects Design - Independent variables where different groups of subjects are used for each level of the variable.
+Within-Subjects Design - 
+The same group of subjects perform all levels of the independent variable each time the study is tested.
+15.A factorial design addresses if there is a relationship between two factors. If it is determined that one variable does affect the other, it can be said that there is an interaction between the variables.
+16.Counterbalancing is used to avoid confounding between variables by mixing up the order of the independent variable in an order that would cause the results to be dependent on the order given.
+17. Randomization desensitizes the effects of unmeasured variables in a study. In the text's example of studying the minutes of sleep subjects got in a population of people with insomonia, it mentions other variables that could effect sleep such as caffiene or stress. Random sampling and random assignment disperses these chance differences between the control and experimental groups. However, randomization doesn't completely eliminator differences in unmeasured variables. There's still the question of chance differences.
+
+Chapter 7
+1.
+a. .5398
+b. .758
+c. .2182
+4. .6827, .0455, .0878
+5. 78.291, 63.824
+8. 
+a. .266
+b. .0043
+c. 81.254 mph
+d. The distribution is skewed to the right because more people drive over the speed limit.
+13. True
+14. True
+15. True
+16. True
+17. True
+18. True
+19. False
+20. True
+21. False
+23.
+a. mean = 24.736 SD 9.525
+b. .2903
+c. .2554
+Chapter 9
+1.
+a. Mean= 50, SD = 1.5
+b. Mean=50, SD=1.341
+2.
+a. .2023
+b. .0186
+c. .0004
+d. .0956
+5. mean = 5-4 = 1
+standard deviation = .612372
+probability that the mean 
+7. The shape of the distribution will be close to normal.
+12.
+a. z'(.3) = .310
+   z'(.1) = .1
+standard of error = .1111
+difference > 1.5 = .2071
+.029378
+b. z'(.25) = .255
+.0689702
+17. True
+18. False
+19. False
+20. False
+21. True
+22. False

@@ -1,0 +1,52 @@
+Chapter 3
+11. See Excel Workbook
+12.False
+13.False
+14.True
+15.
+A trimean will be less sensitive to extreme scores because you put more weight on the average of the 50th percentile than on the average of the 25th and 75th percentile.
+
+The mean is most sensitive to extreme scores because the measure applies the same amount of weight to a potential outlier than it does to a score that seems more reasonable. 
+
+The median is effected by the higher score since it's still considered apart of the data set. However, the value of score isn't taken into account. It only considers the numbers closer to the center of the dataset. For example if you had a data set of:
+1 2 3 125
+The median is 2.5.
+If 125 was removed from the dataset the median is 2. In this example, the median isn't effected much, but the large score still takes account in the median because it's makes the data set larger.
+
+16. Postively Skewed
+27.
+Mean for average weight patients:       31.36 minutes
+Mean for overweight patients:      24.74 minutes
+28. The difference in mean is     6.63.
+    The standard deviation for the sample group of average weight patients is 9.86.
+    The standard deviation for the sample group of overweight patients is 9.65
+    The difference of the standard deviations is .21. The text asks "How many standard deviations do the means differ?" This confused me. Perhaps you can help me understand this question and I can provide a better response.
+
+Chapter 4:
+5. I would expect the correlation to be higher when the entire class is included in the study because you need both ends of the distribution to make a stronger correlation.
+6. Positive
+10. False
+11. True in a case that the data set is non-linear.
+12. False
+13. True
+14. True
+15. False
+16. True
+17. r = .719, positive correlation
+(work attached to excel sheet)
+18. I would expect an inverse (negative correlation) relation to appear between Anger Out and Control Out. The measure of Anger Out is expressing verbal or physically aggressive behavior, while Control-Out is the opposite, maintaining a calm demeanor when feeling angry. In this situation, r = -.583 (rounded up) showing a negative correlation.
+(work attached on excel sheet)
+
+Chapter 5:
+1.
+sum of 9+ = 27.78%
+total of 7 = 16.67%
+2.
+a.) 25%
+b.) 16.67%
+c.) 5.56%
+3.
+Ace or King: 8/52 or 15.38%
+Red or Black: 50%
+4. 
+5.

@@ -1,0 +1,48 @@
+Chapter 10:
+1. The mean grade in a class on a final exam is a parameter when the mean includes data from the entire grade or population. It is considered a statistic if the mean was taken from a sample of the grade.
+2. An estimator is bias when it over estimates or under estimates the parameter. The mean of the smapling distribution is the expected value. If an estimator equals the expected value, it is unbiased. If it does not equal the expected value, it is biased.
+7.
+r =.55 = Z' = .618
+N = 28
+standard error = 1/sqrt(28-3) = .2
+LL(z') = .288
+UP(z') = 1.072
+LL(r) = .280
+UL(r) = .79
+Since less than .35 is included in the 95% confidence interval, I would not want to use the test to screen job applicants.
+12.
+p = .64
+s(p) = sqrt((.64(1-.64))/25) = .096
+LL .64 - (1.96)(.096) -.02 = .43
+UL .64 + (1.96)(.096) +.02 = .85 
+The 95% confidence interal is (43, .85)
+24.(-.61,2.61) ???
+25.(-0.81,2.81) ???
+26.
+
+Chapter 11:
+1. James Bond can't taste the difference between a Martini that is shaken or one that is stirred.
+4.
+a. Enchinacea does not decrease the length of colds.
+b. There is no relationship between brain size and intelligence.
+c. A self-proclaimed psychi cannot predict the outcome of a coin flip.
+d. The amount of pain relief is not affected by the use of a placebo or drug.
+8.
+11.
+17.
+20.
+21.
+22.
+23.
+24.
+
+Chapter 12:
+2.
+3.
+5.
+21.
+22.
+
+Chapter 13:
+4.
+5.

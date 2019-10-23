@@ -1,0 +1,44 @@
+The following are the key objectives I took away from the first 5 sections of Chapter 8.
+
+Stationary Time Series - data that doesn't depend on the time in which the data point occurred. Data that has trend and seasonality are non stationary. White noise series are stationary. 
+
+Time series with cyclic patterns only are stationary. 
+
+Non-stationary datasets can be transformed to stationary datasets by differencing. 
+
+Differencing is computing the difference between consecutive observations. By computing this data transformation, the mean is stablized by reducing trend/sasonality.
+
+Non-stationary time series will have insignificant autocorrelations. 
+
+Random Walk Model - Data usually have long periods of upward/downward trends and unpredictable changes in direction. Forecasts using this approach are equal to the last observation (similar to naive forecasts). Similarly, if the differences have a non-zero mean, the results of a forecast are similar to to drift model where the average change between the observations are calculated into the forecast.
+
+If differencing the data doesn't provide a stationary dataset, the differencing steps can be performed again on the already differenced data. This is called second-order differencing.
+
+Seasonal differencing is similar expect instead of differencing from consecutive data points, the differencing is performed from the last data point of the same season. The forecast results are equal to the last observation of the same season (similar to seasonal naive forecast).
+
+Sometimes a combination of differencing methods or transformations (such as log) are appropriate in obtaining stationary data. If both seasonal and first differences are applied, it doesn't matter the order in which method is applied. If the data is strongly seasonal, apply the seasonal difference first to ensure that a second differencing approach is necessary.
+
+Unit Root Tests can be performed to identify if differencing is required. The unit root test is a statistical hypothesis test of stationary. If the null hypothesis is that the data are stationary, the test looks for evidence that the hypothesis is false. If the p value is less than .05, differencing is required.
+
+Autoregression models forecast the variable of interest using a linear combination of past values of the variable.
+
+Moving Average Model uses past  forecast errors in order to forecast future values.
+
+Combining differencing, autogression, and moving average methods results in an ARIMA model (AutoRegressive Integrated Moving Average). 
+
+ARIMA(p, d, q) 
+p=order of the autoregressive part, d= degree of first differncing involved, q= order of the moving average part.
+
+As long as the d parameter (differencing is the same), AIC can be used to compare model performance/complexity. If it is not the same, the difference in degrees of freedom will not allow for an accurate comparison.
+
+The larger the d (differencing) parameter, the large the prediction intervals will increase. If d = 0 the long term forecast will be the standard deviation of historical data.
+
+Using the ACF and PACF plots can assit in determining values of p (autoregression parameter) and q (moving average parameter). In ACF plots, there is a correlation between y(t) and y(t) lag 2 if there is a correlation between y(t) lag 1. Partial Autocorrelation reduces this issue by removing the effects of the lags.
+
+If p and q are both positive, the PACF and ACF plots are not helpful in finding values for p and q.
+
+Indicators that the data may follow an ARIMA(p,d,0) model is if ACF shows exponential delay and a spike at lag p in  PACF but nothing beyond lag p. 
+
+Indicators that the data may follow an ARIMA (0,d,q) model is if PACF shows exponential decay and there is a spike at lag q in the ACF but nothing beyond lag q.
+
+auto.arima() function can help find the appropriate parameters for ARIMA.

@@ -1,0 +1,14 @@
+tslm() fits linear regression model to time series data.
+
+A single linear regression line is the equation that consists of the intercept (where x=0) and the slope.
+
+We can write a least squares linear regression equition based off of the data output from tslm() by using all the estimated coefficients and setting the error term to zero.
+
+Assumptions made in linear regression includes assuming the model is a reasonable approximation to reality, the errors have zero mean, the errors are not autocorrelated, and the errors are not related to the predicator variables. Another assumption is that each predictor variable is not a random variable.
+
+R(^2) measures goodness of fit by squaring the correlation between observed y values and predicted y^ values. The result is the proportion of variation in the forecast variables that is explained by the model. The closer R2 is to one, the better (in theory, unless the model is over fitted) the model is.
+
+Another way of evaluating a model's goodness of fit is by using the residual standard error which is related to the size of average error the model produces.
+
+Looking at the residuals of a model will help the analyst understand the performance of the model. If the residuals show autocorrelation, it's likely that theres information that could be included in the model to make better predictions. In addition, the residuals should be normally distributed.
+

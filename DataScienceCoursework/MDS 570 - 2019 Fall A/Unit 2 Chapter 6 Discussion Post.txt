@@ -1,0 +1,17 @@
+The below summarizes the main points from Chatper 6.
+
+Time series decomposition discusses identifies the different components of time series data. These components are trend-cycle, seasonality, and the remainder (everything else). 
+
+Moving averages are one way of estimating trend-cycle for a data set. Depending on the seasonality (weekly data, yearly data, etc.) depends on the number of moving average to use. If the moving average is even, another moving average is used to make the moving average data symmetric. If the m-moving average is odd and another moving average is performed on top of it, m-mover average must be odd also.
+
+Classical decomposition uses the moving average to detrend a data set. Next it estimates the seasonality of the data by averaging the detrended values for the season. The remainder is calculated by subtracting or divided (depending on addititive or multiplicative) the estimated seasonal and trend-cycle components.
+
+X11 decomposition is based on classical decomposition but addresses some limitations of classical decomposition such as providing observations for all end points and seasonality changes.
+
+SEATS is another approach but can only be used with quarterly and monthly data.
+
+STL (Seasonal and Trend decomposition using Loess) is another approach and has advantages over the above that includes being able to handle any type of seasonality, seasonality can change over time, seasonality can be controlled by the user, smoothness of the trend-cycle can be controlled by the user, and can handle outliers.
+
+Strongly trended data will have the seasonally adjusted dataset with more variation than the remainder component. 
+
+Strongly seasonal data will have the detrended dataset with more variation than the remainder component.

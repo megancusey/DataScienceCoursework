@@ -1,0 +1,15 @@
+Chatper 3: Introduction to Predictive Modeling: Correlation to Supervised Segmentation
+
+A key concept to Chapter 3 was "information gained". In general, the authors described information gained as knowledge that reduces the uncertainty about something. One way to gain information as it relates to modeling, is to find informative attributes. A common approach to finding informative attributes is to use a purity measure to identify best which attribute divides the dataset in such a way that the subgroups have the highest amounts of like target-values. The purity measure most referred to in the book is called entropy. The entropy formula results in a value from 0 to 1. A value of 0 (probability = 0 or 1) indicates high information gain; using the attribute perfectly divides target-values. A value of 1 (probability = .5) indicates low information gain, the target-values given the attribute are sporadic and impure. 
+
+This concept is the idea behind selecting attributes for classification or regression models such as a tree-structured model. The first split (parent) is determined by the attribute with the lowest entropy. After the data is split into sub-groups, entropy must be recalculated on the subsets of data in order to determine the next split. It is important not to do too many sub groups as that will result in overfitting the model.
+
+After creating the tree model, rules can be made to describe groups of data in order to determine what the target value may be. For instance, if the parent split was based on an attribte: income, one sub group may be income >50K = class 1 and the other, <50K = class 2. If a row in the testing data had an income of 75K, the row would be assigned to class 1.
+
+Some other ideas the book mentioned are what to do when there isn't many data points in for a class estimation and how to visualize entropy through an entropy chart.
+
+This chapter made me think of the idea of overfitting a model and made me think back to statistics where, the larger our dataset, the closer we were to obtaining results that were more parellel to the overall population. If we have a large amount of test/train data, is it still a concern to overfit the model too much?
+
+Chapter 9: Evidence and Probabilities
+
+This chapter put Bayes' Rules in perspective with how it is used in data science. The basic concept I got from the book is how we can do simple calculations on each value of the vector and insert it into Bayes theorum to provide the probability that a data row belongs in a particular class. The largest probability for the probability of the row data, given the class would determine which class can be assigned. This more traditional bayes calculation is more realistic than the naive-naive bayes formula that used lift to calculate the probabilty and assum full independence.

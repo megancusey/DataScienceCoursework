@@ -1,0 +1,38 @@
+The readings expressed algebra in terms of different mathmetical symbols which lost me a little bit even with the additional resources provided. I tried to focus on the basic concepts so I'll give it my best shot and look for my classmate's post for validation.
+
+In addition to the text provided, I also watched several videos on YouTube regarding linear algebra produced by Khan Academy. I got maybe an hour into the videos to understand some of the mathmetical notation and basic understanding, but it'd be several additional hours before I got to eignvector/eignvalue portion of the linear algebra that I believe is the nitty-gritty of what we're trying to get at so then I reread the text to try to get there. If you are like me and really need visuals and examples, I recommend watching them as well.
+
+Depending on the extent of linear algebra that is necessary to know before applying software computations for our data science application, I'd like to watching the rest of the Khan Academy videos for additional understanding. In addition, theres a linear algebra for machine learning lecture on YouTube as well which might give be helpful. I'm interested to see the application to linear algebra in data science!
+
+Below are some of the key concepts I noted:
+
+Linear Algebra seeks to define the functions of a linear in a way that can apply many dimensions of a line instead of just two like we are used to seeing.
+
+For example, a R (Real numbers) ^2 can be used for linear functions of (x,y) coordinates while R (Real numbers) ^3 represents (x,y,z) coordinates that is more difficult to visualize and perform functions.
+
+Vectors can be numbers,n-vectors, 2nd order polynomials, polynomials, power series, and functions. Vectors of the same type can be added.
+
+Using a scalar multiple of 0 for any vector results in a zero vector.
+
+Linear Algebra is the study of functions that have the charateristic of additivity and homogeneity. The additivity characteristic implies that it you can either apply vectors u & v into L() separately and then add the products or add u + V and then input into L(). The result is the same. Homogeneity charasteristic states that it doesn't matter if you multiply u vector by it's c scalar multiplier before you input it into L() or if you scalar multiply the vector and then apply L(), the results are the same. Functions of vectors that obey these properties are said to be linear.
+
+All the possible outputs of a matrix multiplied by a vector  is called a column space.
+
+Linear Algebra rewrites the equare of a line so that u is a vector and can apply it to a larger scale.
+L = the set of vector u + (t)(u) provided that t is a member of Real Numbers.
+
+The plan determined by two vectors u and v can be written as
+{P + s(u) + t(v) | provided that s,t are members of real numbers}
+If k-dimension is not specified, assume that k= n-1 for a hyperplane instide R(real numbers)^n.
+ 
+The law of Cosines is used to determine the angel between two vectors.
+
+Two vectors are orthogonal if their dot product = 0. Dot product has the following properties: symmetric, distributive, bilinear, and positive definite (= 0 if orthogonal). The dot product determines the Euclidean length and angle between two vectors.
+
+The notation R(real number) ^(1...n-vectors) denotes the set of all functions from {1,...,n} to R.
+
+For any set S, the notation R (Real numbers)^ s denotes the functions from S to R. These can be multiplied and added together.
+
+A minimal set of independent vectors = base. The number of vectors in the bases = dimension of vector space. Each vector space has many bases, but bases for a certain vector space has the same # of vectors.
+
+

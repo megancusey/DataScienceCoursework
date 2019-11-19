@@ -1,0 +1,29 @@
+Feature Engineering:
+- Insert domain knowledge into the data set
+- Create interaction features that combines 2+ featurs. This could be the product, sums, or differences between features.
+- Combine Sparse Classes (bins)
+- Create dummy variables (binary 0/1) to indicate categorical features)
+- remove unused features
+- remove redundant features (those replaced by others added during feature engineering)
+
+after featuring engineering, the dataset is called analytical base table (ABT) which is what the model is built on.
+
+choose models that will select the best features.
+
+* feature scaling
+* standardize the data by centering data so average is zero and centered value is divided by standard deviation
+* center the data by subtracting the average of each variable = average of 0 w/o changing the scale. Helps interpret the data (can see if higher/lower than average w/o looking up the average), doesn't increase info available to algorithm, but to the analyst.
+* Rescaling - dividing the centered values by standard deviation = variable w/ average value of 0 and standard deviation = 1.
+
+* convert #s into percentiles used to compare-  percent of values that are smaller (or larger) than the value.
+
+*Turn Counts into Rates, make sure that if you divide by time, it is the same length of time for all observations and if not all have satisfied that length of time, an adjustment is made. (ex 12 per year)
+*Use relative measures for counts such as men and woman in big town vs small town. big town will have more men and woman than a small town but use % (or proportion, z-score, percentiles) to indicate a relative measure that can be used to compare.
+* Turn categorical variables into numeric, such as binary columns, describing categorical data with numeric descriptors
+* combining features such as BMI, on base %
+
+The impact of the number of dimensions vary with different techniques. When using regression or neural networks, increasing features increases degrees of freedom which provide the model the opportunity to memorize cases instead of generalizations of the overall data. This isn't a concern for decision trees.
+
+Variables that are uncorrelated are independent, but could have a non-zero correlation and still be independent.
+
+

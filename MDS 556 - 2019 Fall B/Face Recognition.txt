@@ -1,0 +1,9 @@
+Face Detection - find out who the image is of
+
+Face Recognition - Decide if somebody's face is known or unknown.
+
+I thought the content over face recongition using PCA was really interesting. Facial Recognition, at least to me, always appeared to be some sort of highly advanced technology that only robots can understand, but the tutorials on how it's done made me realize thats not true.
+
+It fascinated me that the PCA facial recongition could identify "average" features of a face and subtract them out of the training set images leaving only the unique features of each face in the training set. Doing so reduces dimensionality. The PCA analysis also calculates the covariance metrics by calculating the transposed vector by the original vector which makes computation much easier and more efficient. The result of the PCA analysis is a set of weights to apply to an image that will determine if the face is known or not once a threshold is specified.
+
+I was a bit confused on the application of the facial recognitation technique. It looked like the training set was images of faces from different people. It's hard to believe that in a training set one 50 images, all different individuals, that a model can (with up to 70% accuracy) indentify that a new image is different person than the other 50 individuals in the training set. I could see if the training images were of the same person.

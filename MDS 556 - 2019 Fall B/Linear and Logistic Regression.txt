@@ -1,0 +1,21 @@
+
+Purpose: Learn more about the relationship between one or more independent/predictor variables and a dependent/criterion variable.
+
+Approach: Fits a line between the X (predictor variables) and Y (criterion variable) that reduces the squared deviations (least squares estimation).
+
+Equation: The Indepdent variable is on the left side of the equation. On the right side is the intercept constant and the regression coefficient/slope for each predictor variable multiplied by the value of of the predictor variable..
+
+Considerations:
+ - The regression coefficients (B Coefficients) represent the independent contributions of the independent/criterion variable. The addition of another predictor variable effects the values of the regression coefficient.
+
+ - R-squared indicates how well the model fits the data. If R-square is close to 1.0, then most of the variablity has been accounted for. If the R-Squared is .4, 40% of the original variability is explains, 60% of the original variability remains unexplained.
+
+- Assumes linearity, normal distribution of residuals
+
+- Too many variables, and not enough observations will produce unstable results
+
+- Check statistical indicators for redundant variables (tolerance, semi-partials Rs). A remedy is Ridge Regression.
+
+- If fitting polynomials, center the independent variable.
+
+- Outliers can produce extremely different results. Review residuals. Plot a graph with residuals as a vertical axis and independent variable on the horizontal axis. If the points are randomly dispersed, linear regression model is appropriate. If not random, a non-linear model is more appropriate.

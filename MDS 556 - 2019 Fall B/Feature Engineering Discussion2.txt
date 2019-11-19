@@ -1,0 +1,10 @@
+There is certainly a lot to consider when reviewing the features you can include in your model. In my project for this course, I have 79 features. For each feature, I will want to identify how the information will be presented to the model. I will want to know what the distribution of the categorical features and if I need to combine sparse classes into one bin. Afterwards, I'll want to present my categorical inputs numerically. 
+
+Side Bar:
+In Chapter 16 of the Linoff and Berry, it mentioned data scientists incorrectly assignment a unique ID for different states because models will try to compute the distance of ID 1 (ex: Arizona) and ID 35 (ex: Illinois) which would be considered to be further away than ID 3 (ex: Alabama) which doesn't make any sense. However, I believe at least R fixes this by defining columns as factors, but I could be wrong.
+
+Another thing I will want to address is that for project (house market information), there are multiple columns for square feet. For example there could be a Total Basement SqFt column, Finished Basement sqft column, and Unfinished Basement sqft column. These features are a bit redundant. If you know 2 of these variables, you know the other so all three isn't necessary. I think that the Total Basement Square Foot might be able to stay and just use a binary feature for basement finished or not, however, what happens if there is no basement?
+
+I really appreciated the ideas of standardization by subtracting the mean of a feature by all the observations of that feature so that all the values will have a 0 mean. If you divide the centered values by the standard deviation then the standard deviation will be 1. This helps compare the information better between the observations in addition to providing a normal distribution.
+
+Other ideas of feature engineering also include feature selection. Some methods include using the target variables to identify the features that have the best predictive power. Others do not use the target for that can cause some information leakage. It sounds like if you use a training, test , and validation set of data, the risk of using the target variables is pretty minimal.

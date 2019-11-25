@@ -1,0 +1,14 @@
+Examples of Clustering Techniques:
+K-Means
+	Short Comings:
+	 *  Undirected, no good estimate of 	    target
+	 *  R^2 can be small even when the 	    line appears to be a good fit 	    making the evaluation of the 	    model difficult
+
+Guassian Mixture Models (GMM) / Expectation Maximization (EM)
+
+Divisive Clustering 
+
+Agglomerative Clustering
+
+Self-Organizing Maps - a neural network approach
+

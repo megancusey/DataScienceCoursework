@@ -12,3 +12,7 @@ Agglomerative Clustering
 
 Self-Organizing Maps - a neural network approach
 
+
+The Linoff and Berry Chapter 14 Text, Alternative Apporaches in Cluster Detection, advises of the shortcomings of K-means clustering. Clusting methods, in general, are undirected, unsupervised algorithms that attempt the group the data points into separate categories. In other words, the methods don't use a target variable to make decisions from. While K-means is a popular method, there are more advanced applications of clustering that improve upon K-means. For example, R-squared, a measure of how much variance is being captured in the data, can be small even when visually a line is able to fit or split the data points relatively well.
+
+Gaussian Mixture Models (GMM), Divise Clustering, Agglomerative Clustering, and Self-Organizing Maps are all clustering techniques that may be an improvement on K-means. GMM uses an expectation-maximization approach to assign probability distributions to multiple features in order to categorize the data points. Divisive Clustering defines rules to split data points in a decision tree like fashion using a measure of purity to maximize the differences in the clusters. Agglomerative clustering provides an inverse approach to Divisive Clustering by performing the algorithm from a bottom to top approach. Finally, Self-organizing maps applies descriptive statistics to calculate clusters in the data. 

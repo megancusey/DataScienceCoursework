@@ -1,0 +1,17 @@
+1.) Business Understanding/Application
+
+Goal: Understand the characteristics of customers that have a Caravan Insurance Policy to create a focus market group of potential customers of similar characteristics that do not have a Caravan Insurance Policy.
+
+Challenge: Small amount of customers with Caravan Policies. Less than 6% of their customer profiles have are caravan insurance policy holders.
+
+60/40 split Train/Test (5822,4000)
+
+2.) Exploratory Analysis
+a.) Summary of data - 86 columns: 5 Categorical, 81 Nominal
+b.) Religion - Divided Roman Catholics into 10 sub groups instead of binary (catholic or not). Little correlation existed and unclear as to why the Catholic religion was subgrouped (I think other religious categories were binary) as such so they removed religion related columns. (-4 columns = 82)
+
+They used the spearman method of testing correlation when pearson would have been fine since 20*86 = 1720 so theres enough training data for the # of columns (1720 < 5,822).
+
+c.) Remaining 4 categorical variables were converted to binary. Increases # of columns from 82 to 145.
+
+Used models that increased understanding of the customer profile instead of black box models. Feature importance is desired.

@@ -1,0 +1,15 @@
+I apologize for the late post. Since my final project has to do with text analytics, I've been trying to do a deeper dive during these two weeks. 
+
+I attempted to reproduce the text's code on both the Yelp Data and my own project's data regarding classifying actual disaster events (True or False) depending on tweets from Twitter. I did get hung up on downloading Spacy. I know that it appears the files existed in my local but not my virtual environment. I attempted to resolve the issue but haven't yet been successful.
+
+I wanted to share some additional resources that I have found while playing around with the Twitter Data.
+
+One of the things I like about Kaggle is the ability to see other people's thought process on completing a model through the use of shared Notebooks. Here is a Notebook that walks you through the basics of text preprocessing including some of the key concepts we discussed this week such as stop word removal, tokenization, stemming, and lemmazation.
+
+https://www.kaggle.com/parulpandey/getting-started-with-nlp-a-general-intro
+
+This blog, All you need to know about Text preprocessing for Machine Learning and NLP by Kavita Ganesan, has a lot of great information. What I found most interesting is a table in the "Rule of Thumb" section that describes a balance between the amount of data and the amount of noise in the data:
+
+https://kavita-ganesan.com/text-preprocessing-tutorial/#.Xl1Ue6i6OUm
+
+I am looking forward to continuing to work through the material in this weeks and next weeks course as it relates to my final project's data.

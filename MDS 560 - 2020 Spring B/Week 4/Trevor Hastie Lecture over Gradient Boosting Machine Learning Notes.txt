@@ -1,0 +1,29 @@
+The following are notes and concepts I took away from Trevor Hastie's dicussion over Gradient Boosting Machine Learning. I found it very helpful in solidifying my understanding over this group of techniques.
+
+Decision Trees:
+Pros: Can handle large datasets, can contain both quantitative and qualitative predictors, ignores redundant variables, handles missing values, small trees easily interpretable.
+Cons: large trees cannot be interpreted well, prediction performance is usually poor.
+
+Bagging, Boosting, Random Forests all attempt to improve decision trees by some variation of model averaging. As a result of producing many trees and averaging the results, the variance is reduced.
+
+# order by complexity/expected performance (1 lowest, 3 highest)
+
+1. Bagging - Averages the results of many large trees built on resampled versions of the training data & classify by majority vote.
+
+2. Random Forests - improves on bagging by de-correlating the trees to reduce variance. Introduces an additional randomness by selecting features at random. So many trees are produced using bootstrapped samples in addition to random features being included per decision tree made. Results are averaged.
+
+3a. Boosting - Fit many large or small trees to reweighted versions of the training data. Classify by weighted majority vote. Learns from the mistakes of previous fitted trees (this is when the weights of observations are reassigned to help correct previous mistakes).
+
+3b. Boosting Stumps- 2-node tree, after single split. Surprisingly sometimes outperforms trees with 2+ nodes (ex: 10 or 100 nodes).
+
+Boosting = Stagewise Additive Modeling - "stagewise" indicates that the parameters are being fit as the trees are being built and errors are being identified. It doesn't go back to optimize previous parameters. This slows down overfitting.
+ex: Least Squares Boosting - a way that boosting can be applied to a regression problem. Essentially, the residuals get fitted into the problem. (Reminds me of Auto-Regression in ARIMA where the regression uses residuals to fits itself)
+ex: Boosting can be applied to general loss functions = General Boosting Algorithms.
+
+Gradient Boosting - works with variety of loss functions. Models include = regression, resistant regression, K-class classification & risk modeling.
+ - inherits PROS of decision trees (See above) & improves prediction performance.
+ - Provides variable importance plot.
+
+Learning Ensembles - 2 steps: 1.)build dictionary of trees 2.) Fit a model
+- Result is large ensemble w/ many similar trees.
+- Post-processing such as Lasso selects smaller subset of the trees and combines them.

@@ -1,0 +1,19 @@
+Terminology:
+Deep Learning - expands on a neural network architecture. Traditional neural network has 2-3 hidden layers while deep learning neural networks can have many more. 
+
+Concolutional Neural Networks: Extracts features from images
+
+QUESTION: Figure 2 on https://www.mathworks.com/discovery/deep-learning.html has x1,x2,x3 as the output of the convolution layers (if I understand it correctly). Would that be the output of each convolution layer? For example, x1 represents the image in terms of simple shapes, x2 - complex shapes, x3 - shapes that can be used to define a flower? Then each of these inputs are put into the Fully Connected Layer that will reach the activation function to decide on a classification?
+
+Does Deep Learning algorithm decide how many layers to build? I imagine this is part of the model tuning process, but perhaps it gives you a place to start?
+
+Deep Learning Advantages: Features are learned directly from the data, no manual feature extraction required. Scales with data (VS ML with plateaus with more data)
+
+Deep Learning Constraints: Need a lot of labeled data and computing power. Inability to insert domain knowledge. Black Box.
+
+Examples of Applications: 
+Automative Driving - detected stop signs, traffic lights, pedestrains etc.
+
+Aerospacce & Defense - identify objects from satellites.
+
+Medical Research - detect cancer cells

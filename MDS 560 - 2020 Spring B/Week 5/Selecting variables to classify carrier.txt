@@ -1,0 +1,6 @@
+1.) Exclude ID-like columns when importing the dataset.
+Delivery Number, Production Order Number, Sales Order Number
+
+2.) Removed Correlation Above .9
+
+3.) Use Quality Measures to review Correlation, Missing Values, Stability, Remove Late Code, missing values

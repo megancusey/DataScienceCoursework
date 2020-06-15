@@ -1,0 +1,11 @@
+This week we learned that Deep Learning is an example of Reinforcement learning.
+
+Examples of Deep Learning include:
+
+Automatic Text Generation - I found this interesting because I can identify where this is helpful to me. When I send an email on gmail, often times I receive suggestions on how to finish my sentences. The context of the suggestions are often incredibly accurate and I use the autocomplete feature quite often.
+
+Energy Market Price Forcasting - In Spain and Portgual, researchers are applying artificial neural networks to energy grids in order to predict price and usage fluxations. It appears that data is pulled each daily, but also throughout the day to evaluate energy offer and demand. As a result of making more accurate predictions regarding consumption and availability, they are able to increase efficiency and cost savings.
+
+
+
+https://medium.com/breathe-publication/top-15-deep-learning-applications-that-will-rule-the-world-in-2018-and-beyond-7c6130c43b01

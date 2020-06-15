@@ -1,0 +1,33 @@
+The following are notes taken while watching the Salford System videos over CART Decision Trees for Regression:
+
+CART = Classification and Regression Trees; divide X variables into different regions to better predict Y.
+
+TERMS: Node at the top of the tree = root node. Tree Split = when an x variable is divided/partioned. A split that divides one node into two = binary split. Terminal Nodes = node with no splits. Predicted Value = the average of Y for the records that fall into the terminal node.
+
+Step 1: Grow a large tree
+To compute the first split in CART: Calculate a split improvement for each X variable. The best and selected split is the one with the highest split improvement. To continue, compute the same steps, except on each partition of the data.
+
+Step 2: Prune the tree
+W/ Test Sample: Run test data through the large tree & subtress. Compute the error for each. The tree with the smallest test error is the pruned tree shown to the user.
+
+Advantages: easily interpretable, variable selection, can handle redudant variables, models variable interaction, automatic nonlinear modeling, handles missing values (surrogate split) & outliers, transformations do not impact the model.
+
+Intrepretation: 
+Relative Error - when close to 0, CART is doing a better job than predicting the median/average for all records in the data. When it's 1+, CART is no better at predicting the average of the target variable for each record.
+Relative Error = (CART Model error using Least Squares or Least Absolute Deviation)/(Error for predicting overall average for each record.)
+
+Variable Importance: The sum of each variable's split improvement score across the splits in the tree. Increased when the variable is used to split a node or when it is the surrogate split.
+
+Relative Importance (more easily interpretable compared to other variables): Calculated by taking each variable importance score and dividing it by the largest importance score. Then multiple by 100.
+
+CART Tree as an equation:
+Indicator Functions define a path from root node to the terminal node. If condition in Indicator Function = true then the output is 1, else 0.
+
+Each terminal node has a function that uses an indicator function to specify the condition(s) multiplied by the predictive value. The tree function is the addition of each equation.
+
+
+
+
+
+
+

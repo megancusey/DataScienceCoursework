@@ -1,0 +1,8 @@
+Machine learning models introduce a bit more risk than traditional modeling techniques. McKinsey provides a validation framework in order to help mitigate and manage the risk of implementing these models.
+
+When compared to the traditional models risk framework, the machine learning model risk framework introduces six additional components: Feature Engineering, Hyperparameters, Interpretability, Bias, Production readiness, and Dynamic Model Calibration.
+
+I was very interested to read about managing risk in applying a machine learning model in an organization. Thus far, it's not been discussed too much but I feel this is extremely important. Many organizations are just starting their application of data science techniques and do not have a validation framework in place. I am sure that students of this program will be referred to for input on the management strategy of these models. If it's not already, I'm sure a whole class could be dedicated to monitoring, validation, and management of machine learning products!
+
+I found the discussion on Bias to be very interesting. We have discussed before ethics when applying a machine learning model and the potential for the data to pick up bias results. In turn, the organization will be held responsible for conducting bias business as the result of using a bias model results, but how do you prevent the model from being bias? The article suggested a few items: limit input features that are not correlated with projected groups, check the proportions for equality in the outputs, validate that the true-positive rates are equal for classes, and validate that true-positive and false-positive rates are equal for classes.
+

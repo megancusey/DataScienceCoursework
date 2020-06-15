@@ -1,0 +1,32 @@
+The following are the main concepts I took from watching the assigned videos.
+
+Part 5 -
+Precision and Recall - 4 events in a binary classification problem: correctly assigned positive (true positive), incorrectly assigned positive (false positive), correctly assigned negative (true negative), incorrectly assigned negative (false negative).
+
+Precision, the ratio of true positives/(true positives + false positives) OR ration of true positives/the sum of predicted positives.
+
+Recall (aka Sensitivity), ratio of true positives/(true positives + false negatives)
+
+The goal is to optimize Precision and Recall meaning false positive and false negatives are close to 0. Trying to optimize only precision usually results in recall suffering and vice versa.
+
+Specificity- true negative/(true negative + false positive)
+
+Part 6 - 
+2 measurements: Recall (aka Sensitivity - focucses on positive group) & Specificity (focuses on negative group)
+
+ROC Curve illustrates the values of recall and specificity for when the threshold ranges between the minimum value of threshold to the maximum value of threshold. Plotting these points results in a curve which helps evaluate the overall model performance. A good classifier will have a higher h(x) for true positives and lower h(x) for true negatives which creates a high area under the ROC curve. In contrast, if the classier performed poorly, the h(x) do not split the true negative and true positives as well that result in a more subtle curve that has a smaller area under the curve than the alternative.
+
+Part 7 - 
+Measurements: Recall (aka Sensitivity), Support (% of population) = (true positives + false positives)/n , Base Rate (true positive+false negatives)/n = the percentage of responders (positives) in the dataset.
+Gains Curve - plots sensitivity over support (essentially the % of the population. In the video's example, the study was identifying the top 20% of people likely to respond to a marketing ad. Support = .20%) Plot what the senesitivity would be amoung max and min support results in Gain Curve. Random sampling would result in more of a 45 degree angled line that splits the hyperplane into two. The angle of the gains curve is controlled by the base rate. A low base rate will and a well performing modeling will produce a curve with a lot of area underneath it while a higher base rate and a well performing model could look similar to a "worse case scenario" 45 degree angle gains curve.
+Lift, plots sensetivity against (sensitivity/support).
+You can convert Gains curve to ROC curve.
+
+Part 8 -
+Probability of a positive, constraint of being between 0 and 1.
+log-odds is a way to convert from probability to a figure without that constraint. Sigmoid Funcion maps figures that is essentially betweeen 0 & 1, (from negative inifitity, getting closer to 0, to positive infinity getting closer to 1.) Log Odds and Probability can quicker be transformed into one or the other. The assumption that are allowed for interpretation with log odds can apply maximum likelihood principals. 
+
+
+
+
+

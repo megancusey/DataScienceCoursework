@@ -1,0 +1,7 @@
+Bias and variance are identified typically when a model doesn't generalize well when it sees new data. Bias leads to underfitting a model meaning that important variable(s) have been omitted from the model that would have good predictive power. Variance includes overfitting the model by applying more model complexity and/or too many ineffective dimensions.
+
+Bias and Variance can be balanced by keeping in mind the "Curse of Dimensionality" which means that the number of features included in a model has a diminished value effect where the more included doesn't necessarily mean a much better performing model. In fact, thats when overfitting occurs. In contrast, the variables with the most predictive power has a significant positive impact on the model. Not including a strong variable in the model, being afraid of too many dimensions, will create the underfitting model which means bias. Look to identify the sweet spot between the two.
+
+Regularization can limit the impact of large coeffients to limit the variance if a model habitually overpredicts.
+
+PCA and dimension filtering are two techniques to reduce dimensions. PCA essentially combines dimensions that maximizes the variance. Dimension filtering can be down through a stepwise process that identifying the most statistically significant features that should be included in the model. Insignificant variables should be removed.

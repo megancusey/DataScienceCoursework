@@ -1,0 +1,23 @@
+Convolutional Neural Network = Good for image recongition
+Long Short-Term Memory Network = Good for speech recognition
+
+Neural Networks are inspired by the brain.
+Neuron = holds a number (betweeen 0-1)
+
+First Layer - Creates a neuron for each pixel. (EX: If 28 X 28 pixels = 784), stores gray scale value which represents "Activation".
+
+Last Layer - Contains the value that represents how much the system thinks the observation belongs to a class/outcome. 
+
+Layers inbetween are "Hidden Layers". Experiment on # of layers and # of neurons for the layers. This hidden layers may be trained to identify loops a number has. Loops can also be divided into a sub problem identifying smaller components of the the loop. These layers can help identify other components of numbers (straight line, etc).
+
+The same concept can be applied on images and audio.
+
+In a layer, weights are assigned to attempt to identify a particular pattern (edges or loops). A bias can be included to activate when the weighted sum is greater than a particular number. Weights around the pattern in an area of the image can be negative. The sigmoid function is applied to insure the neuron's value remains between 0 and 1.
+
+Learning means the computer is trying to find valid settings for weights and biases. 
+
+The cost function of neural networks is taking the output of the network, sum the difference the output you wanted it to give, and squaring the results for each observation, average it for the cost of the model.
+
+To train, identify the classification desired. Try to increase the activation for that class and decrease the activation for other classes by 1.) increasing the biases, 2.) increase the weight (in proportion to the activation function), 3.) change the activation function for the previous layer (in proportion to weight).
+
+Back proprogation, taking note of adjustments needed for the last layer to the previous later. Identifying the nudges needed for the hidden layers, backwards, to adjust the weights/biases of the layers. The average of these changes needed for each training data is the negative gradient.

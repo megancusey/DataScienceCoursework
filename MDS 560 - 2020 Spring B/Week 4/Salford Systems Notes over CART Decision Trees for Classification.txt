@@ -1,0 +1,11 @@
+CART Decision Trees for Classification is similar to CART Decision Trees for Regression. The same terminal such as root nodes, terminal nodes, leaf nodes, etc. apply. For the splitting procedure, the the data is subsetted by the features with best split improvement. When the pruning process begins, a test set or cross validation can be applied. When using a test set, the data will be evaluating by running it against the large tree and smaller trees that are the subsets of the largest. Test error is measured for each tree. The tree with the smallest test error is the selected tree. This method can also handle missing values (by a surrogate observation), nonlinear data, handle outliers, and provide interpretable results using relative cost.
+
+Random Forests - If a variable is important then randomly rearrange then its value results in a decline in model performance. 
+
+In CART it will fit multiple trees to independent bootstrap samples of data and combine predictions. This results in reduced variance compared to a single CART decision tree.
+
+Some features of Random Forest: variable selection, variable interaction detection, nonlinear relationship detection, missing value handling, outlier handling, and model local effects.
+
+CON: not as interpretable as a single CART tree.
+
+Like CART Decision trees for regression and classification, Random Forest will deliver variable importance on a relative scale.

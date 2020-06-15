@@ -1,0 +1,9 @@
+Naiive Bayes takes each condition and counts the number of true/false cases. As a result, the probability can be computed of a true/false case when a condition is met.
+
+An example in the video, which applys the method to playing golf or not, examines the outlook of a day which could be sunny, overcast, or rainy. If 2 of the 9 observations include a sunny day when golf was played, the probability of that occurring is 2/9.
+
+The same concept is applied to other conditions and the overall probability of a true case and negative case is calculated. 
+
+Multiplying these probabilities together result in the likelihood of the event occurring. The higher the likelihood between positive/negative cases indicate a positive or negative prediction. To convert likelihood to a probability, divide the likelihood by the sum of the likelihood scores. This is the base rule.
+
+Naiive Bayes because the formula assumes the assumption of independent variables which isn't usually the case.

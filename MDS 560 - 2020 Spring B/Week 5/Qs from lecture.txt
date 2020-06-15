@@ -1,0 +1,11 @@
+Q's for lecture: 
+
+@ 1:17 - Dr. Aaron dicussing the production process in RapidMiner. Is this process something that can get exported from RapidMiner and embedded into any middleware language? And if so, Would you really want the training and model building to occur each time a new data needs a prediction? I would think there would be a way to store only the model and use it without rebuilding it each time. I know you mentioned copying the equation produced by a Linear Regression Model and just re-coding it in a programming language, but that's probably more difficult for more complex model types. I feel like you might be able to at least cache a model so you don't have to rebuild it each time in Python and that takes less lines of code. Thoughts?
+
+@ 1:17 - Dr. Aaron responding to Rajan Adhikari's question regarding the relationship between standard coefficients and correlation weights. Dr. Aaron explains that correlation weights are the partial derivatives of the cost function. Standard Coefficients represent the impact of the dependent variable on the cost function when variables are added and removed during the training process. 
+
+Can you explain the difference in turns of interpreting the model?
+
+
+
+

@@ -1,0 +1,5 @@
+During class we discussed the potential for deploying models into "production " environments. This could occur in a variety of ways such as by installing code into custom applications (example PRIMMS), into office products such as Excel or by embedding models in web services for internet users.
+
+Question 2 of your accelerator assignment for week 5 asks you to use the "Production Dataset" to accompany dataset 4 to demonstrate how a model could be deployed to production to help sales order entry staff quote more accurate lead times (i.e. delivery dates) to customers. Describe your approach  for accomplishing this using the X variable "Throughput" and describe how additional enhancements could be added to the approach to continually improve customer satisfaction.
+
+Share your thoughts with all of us on how you would build and deploy a model (based upon dataset 4 information) that would enable sales order entry people to quote more accurate delivery dates to customers. How might this work as a business process? What enterprise KPIs would likely improve as a result?
